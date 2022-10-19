@@ -1,7 +1,10 @@
 {
 	"build": {
 		"base": {
-			"env": {}
+			"env": {},
+			"cache": {
+				"key": "1"
+			}
 		},
 		"preview": {
 			"extends": "base",
