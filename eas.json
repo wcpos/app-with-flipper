@@ -1,6 +1,7 @@
 {
 	"build": {
 		"base": {
+			"node": "16.18.1",
 			"env": {},
 			"cache": {
 				"key": "1"
@@ -26,8 +27,5 @@
 				"simulator": true
 			}
 		}
-	},
-	"cli": {
-		"version": ">= 0.39.0"
 	}
 }
