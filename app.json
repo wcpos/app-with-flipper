@@ -4,9 +4,6 @@
 		"slug": "wcpos-monorepo-app-with-flipper",
 		"owner": "kilbot",
 		"version": "1.0.0",
-		"runtimeVersion": {
-      "policy": "sdkVersion"
-    },
 		"githubUrl": "https://github.com/wcpos/app-with-flipper",
 		"jsEngine": "hermes",
 		"orientation": "portrait",
@@ -21,14 +18,13 @@
 		"updates": {
 			"fallbackToCacheTimeout": 0
 		},
-		"assetBundlePatterns": ["**/*"],
+		"assetBundlePatterns": [
+			"**/*"
+		],
 		"ios": {
 			"bundleIdentifier": "com.wcpos.client.flipper",
 			"buildNumber": "1.0.0",
-			"supportsTablet": true,
-			"infoPlist": {
-				"NSCameraUsageDescription": "This app uses the camera to scan product barcodes."
-			}
+			"supportsTablet": true
 		},
 		"android": {
 			"package": "com.wcpos.client.flipper",
@@ -41,7 +37,9 @@
 		"web": {
 			"favicon": "./assets/favicon.png"
 		},
-		"plugins": ["expo-community-flipper"],
+		"plugins": [
+			"expo-community-flipper"
+		],
 		"extra": {
 			"eas": {
 				"projectId": "2a051d9c-1c4c-40e2-98c2-f87ee7b6e485"
